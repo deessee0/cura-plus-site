@@ -8,89 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* Medical blue - trust & professionalism */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 210 40% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Medical Blue */
+    --primary: 207 55% 35%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary: Sage Green - nature & wellness */
+    --secondary: 160 20% 55%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted: Soft grays */
+    --muted: 210 15% 96%;
+    --muted-foreground: 210 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent: Soft teal */
+    --accent: 180 30% 60%;
+    --accent-foreground: 210 40% 15%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 210 15% 90%;
+    --input: 210 15% 90%;
+    --ring: 207 55% 35%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(207 55% 35%) 0%, hsl(180 30% 50%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 15% 98%) 100%);
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -2px hsl(207 55% 35% / 0.08);
+    --shadow-card: 0 2px 12px -1px hsl(207 55% 35% / 0.06);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
@@ -100,6 +62,67 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+  }
+
+  /* Blog Article Prose Styles */
+  .prose {
+    color: hsl(var(--foreground));
+  }
+
+  .prose h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+    color: hsl(var(--foreground));
+  }
+
+  .prose h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: hsl(var(--foreground));
+  }
+
+  .prose p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    color: hsl(var(--muted-foreground));
+  }
+
+  .prose ul, .prose ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .prose li {
+    margin-bottom: 0.5rem;
+    line-height: 1.8;
+    color: hsl(var(--muted-foreground));
+  }
+
+  .prose ul li {
+    list-style-type: disc;
+  }
+
+  .prose ol li {
+    list-style-type: decimal;
+  }
+
+  .prose strong {
+    font-weight: 600;
+    color: hsl(var(--foreground));
+  }
+
+  .prose a {
+    color: hsl(var(--primary));
+    text-decoration: underline;
+    transition: var(--transition-smooth);
+  }
+
+  .prose a:hover {
+    color: hsl(var(--secondary));
   }
 }
