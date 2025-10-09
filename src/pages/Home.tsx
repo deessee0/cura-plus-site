@@ -27,12 +27,13 @@ const Home = () => {
     <div>
       {/* Hero Section */}
       <section className="relative min-h-[600px] flex items-center">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroImage})` }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
-        </div>
+        <img 
+          src={heroImage} 
+          alt="Studio di osteopatia PiùCura Roma - Trattamenti osteopatici professionali"
+          fetchPriority="high"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl">
