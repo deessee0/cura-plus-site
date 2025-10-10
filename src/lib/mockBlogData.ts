@@ -1,4 +1,4 @@
-// Mock data structure ready for CMS integration (Strapi/Contentful)
+// Mock data structure ready for CMS integration (Strapi)
 // Replace this with actual API calls when CMS is connected
 
 export interface BlogPost {
