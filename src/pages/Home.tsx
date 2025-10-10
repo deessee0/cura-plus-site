@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Heart, Users, Award, Clock, Sparkles } from "lucide-react";
+import { ArrowRight, Heart, Users, Award, Clock, Sparkles, Star, Quote } from "lucide-react";
 import ServiceCard from "@/components/ServiceCard";
 import heroImage from "@/assets/hero-osteopathy.jpg";
 
@@ -117,6 +117,134 @@ const Home = () => {
                 <ArrowRight className="ml-2" size={20} />
               </Button>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4">Cosa Dicono i Nostri Pazienti</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              58 recensioni verificate su MioDottore
+            </p>
+            <div className="flex items-center justify-center gap-2 mt-4">
+              {[1, 2, 3, 4, 5].map((star) => (
+                <Star key={star} className="w-6 h-6 fill-yellow-400 text-yellow-400" />
+              ))}
+              <span className="ml-2 text-lg font-semibold">5.0</span>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-8">
+            <div className="bg-card border border-border rounded-lg p-6 relative">
+              <Quote className="absolute top-4 right-4 w-8 h-8 text-primary/20" />
+              <div className="flex gap-1 mb-4">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <Star key={star} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <p className="text-muted-foreground mb-4">
+                "Mi sono recata dal dottor Michelin per dolori cervicali che non riuscivo a risolvere in alcun modo. Ho trovato un medico attento, gentile, professionale e super preparato che è riuscito, in un paio di sedute, a spiegare la causa del problema e a risolverlo. Super consigliato!"
+              </p>
+              <div className="border-t border-border pt-4">
+                <p className="font-semibold">Elisa V.</p>
+                <p className="text-sm text-muted-foreground">Visita osteopatica</p>
+              </div>
+            </div>
+
+            <div className="bg-card border border-border rounded-lg p-6 relative">
+              <Quote className="absolute top-4 right-4 w-8 h-8 text-primary/20" />
+              <div className="flex gap-1 mb-4">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <Star key={star} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <p className="text-muted-foreground mb-4">
+                "Il dottor Michelin oltre ad essere molto professionale ed attento, è anche molto empatico e mette a proprio agio i pazienti, anche più piccolini. Il trattamento è stato efficace"
+              </p>
+              <div className="border-t border-border pt-4">
+                <p className="font-semibold">Federica</p>
+                <p className="text-sm text-muted-foreground">Osteopatia pediatrica</p>
+              </div>
+            </div>
+
+            <div className="bg-card border border-border rounded-lg p-6 relative">
+              <Quote className="absolute top-4 right-4 w-8 h-8 text-primary/20" />
+              <div className="flex gap-1 mb-4">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <Star key={star} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <p className="text-muted-foreground mb-4">
+                "Sono suo cliente da anni e ogni volta che ho un problema o dolore me lo risolve. Lo consiglio a tutti"
+              </p>
+              <div className="border-t border-border pt-4">
+                <p className="font-semibold">D.C.</p>
+                <p className="text-sm text-muted-foreground">Visita di controllo</p>
+              </div>
+            </div>
+
+            <div className="bg-card border border-border rounded-lg p-6 relative">
+              <Quote className="absolute top-4 right-4 w-8 h-8 text-primary/20" />
+              <div className="flex gap-1 mb-4">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <Star key={star} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <p className="text-muted-foreground mb-4">
+                "Molto attento dolce e calmo, scrupoloso nelle spiegazioni. Consigliatissimo!!!"
+              </p>
+              <div className="border-t border-border pt-4">
+                <p className="font-semibold">Camilla</p>
+                <p className="text-sm text-muted-foreground">Osteopatia pediatrica</p>
+              </div>
+            </div>
+
+            <div className="bg-card border border-border rounded-lg p-6 relative">
+              <Quote className="absolute top-4 right-4 w-8 h-8 text-primary/20" />
+              <div className="flex gap-1 mb-4">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <Star key={star} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <p className="text-muted-foreground mb-4">
+                "Il Dottor Michelin è molto attento, disponibile e cordiale. Spiega in maniera chiara ed esaustiva quello che è l&apos;osteopatia e tutto ciò che andrà a fare per aiutare i pazienti a stare bene. Lo consiglio a tutti."
+              </p>
+              <div className="border-t border-border pt-4">
+                <p className="font-semibold">Giovanna D&apos;Orlandi</p>
+                <p className="text-sm text-muted-foreground">Visita osteopatica</p>
+              </div>
+            </div>
+
+            <div className="bg-card border border-border rounded-lg p-6 relative">
+              <Quote className="absolute top-4 right-4 w-8 h-8 text-primary/20" />
+              <div className="flex gap-1 mb-4">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <Star key={star} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <p className="text-muted-foreground mb-4">
+                "Professionista sempre al top! Serietà e competenza."
+              </p>
+              <div className="border-t border-border pt-4">
+                <p className="font-semibold">Michele</p>
+                <p className="text-sm text-muted-foreground">Visita osteopatica</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <a 
+              href="https://www.miodottore.it/leonardo-michelin/osteopata/gorizia" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-primary hover:underline"
+            >
+              Leggi tutte le 58 recensioni su MioDottore
+              <ArrowRight className="w-4 h-4" />
+            </a>
           </div>
         </div>
       </section>
