@@ -253,7 +253,7 @@ const Home = () => {
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-16">Perché Scegliere PiùCura</h2>
+            <h2 className="text-4xl font-bold text-center mb-16">Perché Scegliere Leonardo Michelin</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div className="flex gap-4">
@@ -263,9 +263,9 @@ const Home = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Professionisti Certificati</h3>
+                  <h3 className="text-xl font-semibold mb-2">Formazione Internazionale</h3>
                   <p className="text-muted-foreground">
-                    Il nostro team è composto da osteopati certificati con anni di esperienza e formazione continua.
+                    Formazione presso prestigiose istituzioni: I.E.M.O. Genova, C.E.E.S.O. Parigi e S.I.O.P. Firenze. Competenze all&apos;avanguardia validate a livello europeo.
                   </p>
                 </div>
               </div>
@@ -277,9 +277,9 @@ const Home = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Approccio Personalizzato</h3>
+                  <h3 className="text-xl font-semibold mb-2">Esperienza Ospedaliera</h3>
                   <p className="text-muted-foreground">
-                    Ogni trattamento è studiato su misura per te, considerando la tua storia clinica e i tuoi obiettivi.
+                    Tirocini presso Ospedale Meyer, Ospedale Rizzoli e C.E.E.S.O. Clinique Ostéopatique. Esperienza clinica rigorosa e multidisciplinare.
                   </p>
                 </div>
               </div>
@@ -287,13 +287,13 @@ const Home = () => {
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center">
-                    <Clock className="text-accent" size={24} />
+                    <Sparkles className="text-accent" size={24} />
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Orari Flessibili</h3>
+                  <h3 className="text-xl font-semibold mb-2">Ricerca Scientifica</h3>
                   <p className="text-muted-foreground">
-                    Aperti dal lunedì al sabato con orari pensati per adattarsi alle tue esigenze.
+                    Autore di studi sul sistema glinfatico e glaucoma presentati a congressi nazionali, europei e mondiali. Approccio basato su evidenze scientifiche.
                   </p>
                 </div>
               </div>
@@ -301,13 +301,13 @@ const Home = () => {
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                    <Users className="text-primary" size={24} />
+                    <Star className="text-primary" size={24} />
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Team Multidisciplinare</h3>
+                  <h3 className="text-xl font-semibold mb-2">58 Recensioni Verificate</h3>
                   <p className="text-muted-foreground">
-                    Collaboriamo con specialisti di diverse discipline per offrirti un supporto completo.
+                    Valutazione 5.0 stelle su MioDottore. Pazienti soddisfatti testimoniano professionalità, empatia e risultati concreti.
                   </p>
                 </div>
               </div>
