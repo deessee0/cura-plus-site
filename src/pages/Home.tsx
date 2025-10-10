@@ -10,16 +10,19 @@ const Home = () => {
       icon: Heart,
       title: "Osteopatia Strutturale",
       description: "Trattamenti mirati per problemi muscolo-scheletrici, dolori articolari e posturali.",
+      link: "/osteopatia-strutturale",
     },
     {
       icon: Users,
       title: "Osteopatia Viscerale",
       description: "Tecniche delicate per migliorare la mobilità degli organi interni e il benessere generale.",
+      link: "/osteopatia-viscerale",
     },
     {
       icon: Award,
       title: "Osteopatia Cranio-Sacrale",
       description: "Approccio dolce per ristabilire l'equilibrio del sistema cranio-sacrale.",
+      link: "/osteopatia-cranio-sacrale",
     },
     {
       icon: Sparkles,
