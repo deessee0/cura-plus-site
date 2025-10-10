@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Heart, Users, Award, Clock } from "lucide-react";
+import { ArrowRight, Heart, Users, Award, Clock, Sparkles } from "lucide-react";
 import ServiceCard from "@/components/ServiceCard";
 import heroImage from "@/assets/hero-osteopathy.jpg";
 
@@ -20,6 +20,12 @@ const Home = () => {
       icon: Award,
       title: "Osteopatia Cranio-Sacrale",
       description: "Approccio dolce per ristabilire l'equilibrio del sistema cranio-sacrale.",
+    },
+    {
+      icon: Sparkles,
+      title: "Yoga Terapeutico",
+      description: "Programma completo di yoga terapeutico con focus su postura, respiro e benessere.",
+      link: "/yoga-terapeutico",
     },
   ];
 
@@ -95,7 +101,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             {services.map((service, index) => (
               <ServiceCard key={index} {...service} />
             ))}

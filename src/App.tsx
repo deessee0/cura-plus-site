@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import ChiSiamo from "./pages/ChiSiamo";
 import Servizi from "./pages/Servizi";
+import YogaTerapeutico from "./pages/YogaTerapeutico";
 import Blog from "./pages/Blog";
 import BlogArticle from "./pages/BlogArticle";
 import Contatti from "./pages/Contatti";
@@ -28,6 +29,7 @@ const App = () => (
               <Route path="/" element={<Home />} />
               <Route path="/chi-siamo" element={<ChiSiamo />} />
               <Route path="/servizi" element={<Servizi />} />
+              <Route path="/yoga-terapeutico" element={<YogaTerapeutico />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/:id" element={<BlogArticle />} />
               <Route path="/contatti" element={<Contatti />} />

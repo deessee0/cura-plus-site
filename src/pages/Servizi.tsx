@@ -1,5 +1,5 @@
 import ServiceCard from "@/components/ServiceCard";
-import { Bone, Heart, Baby, Dumbbell, Users, Activity } from "lucide-react";
+import { Bone, Heart, Baby, Dumbbell, Users, Activity, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import treatmentImage from "@/assets/treatment-osteopathy.jpg";
@@ -35,6 +35,12 @@ const Servizi = () => {
       icon: Users,
       title: "Trattamenti per Anziani",
       description: "Terapie personalizzate per migliorare la mobilità e la qualità della vita nella terza età. Trattiamo artrosi, rigidità articolare, dolori cronici e problemi di equilibrio, con tecniche adattate alle esigenze specifiche.",
+    },
+    {
+      icon: Sparkles,
+      title: "Yoga Terapeutico",
+      description: "Programma completo di yoga terapeutico da Ottobre a Dicembre 2025. Sessioni dedicate a equilibrio, postura, respiro, gestione dello stress e benessere completo. Ogni lezione è progettata per specifiche esigenze fisiche ed emotive.",
+      link: "/yoga-terapeutico",
     },
   ];
 
