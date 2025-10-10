@@ -58,11 +58,16 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-primary mt-0.5 flex-shrink-0" />
-                <span className="text-sm text-muted-foreground">Gorizia, Italia</span>
+                <div className="text-sm text-muted-foreground">
+                  <div>Via Antonio Canova 9, Gorizia</div>
+                  <div className="mt-1">Via Roma 45, Monfalcone</div>
+                </div>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={18} className="text-primary flex-shrink-0" />
-                <span className="text-sm text-muted-foreground">+39 06 1234567</span>
+                <a href="tel:+390481375368" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  0481 375368
+                </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={18} className="text-primary flex-shrink-0" />

@@ -101,20 +101,44 @@ const Contatti = () => {
                         <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                           <MapPin className="text-primary" size={20} />
                         </div>
-                        <CardTitle className="text-lg">Indirizzo</CardTitle>
+                        <CardTitle className="text-lg">Sede Gorizia</CardTitle>
                       </div>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-muted-foreground">
-                        Gorizia, Italia
+                      <p className="text-muted-foreground font-medium mb-2">
+                        Via Antonio Canova 9, Gorizia
                       </p>
                       <a 
-                        href="https://www.miodottore.it/leonardo-michelin/osteopata/gorizia" 
+                        href="https://www.google.com/maps/search/?api=1&query=Via+Antonio+Canova+9+Gorizia" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-primary hover:underline text-sm mt-2 inline-block"
+                        className="text-primary hover:underline text-sm inline-block"
                       >
-                        Vedi su MioDottore
+                        Visualizza su Google Maps
+                      </a>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader>
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                          <MapPin className="text-primary" size={20} />
+                        </div>
+                        <CardTitle className="text-lg">Sede Monfalcone</CardTitle>
+                      </div>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground font-medium mb-2">
+                        Via Roma 45, Monfalcone
+                      </p>
+                      <a 
+                        href="https://www.google.com/maps/search/?api=1&query=Via+Roma+45+Monfalcone" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline text-sm inline-block"
+                      >
+                        Visualizza su Google Maps
                       </a>
                     </CardContent>
                   </Card>
@@ -129,7 +153,9 @@ const Contatti = () => {
                       </div>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-muted-foreground">+39 06 1234567</p>
+                      <a href="tel:+390481375368" className="text-muted-foreground font-medium hover:text-primary transition-colors">
+                        0481 375368
+                      </a>
                       <p className="text-sm text-muted-foreground mt-1">Lun-Ven: 9:00-19:00</p>
                     </CardContent>
                   </Card>
