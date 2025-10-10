@@ -40,9 +40,9 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <Link to="/contatti">
+            <a href="https://www.miodottore.it/leonardo-michelin/osteopata/gorizia" target="_blank" rel="noopener noreferrer">
               <Button className="ml-4">Prenota Ora</Button>
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -72,11 +72,11 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <Link to="/contatti" className="block mt-4">
+            <a href="https://www.miodottore.it/leonardo-michelin/osteopata/gorizia" target="_blank" rel="noopener noreferrer" className="block mt-4">
               <Button className="w-full" onClick={() => setIsOpen(false)}>
                 Prenota Ora
               </Button>
-            </Link>
+            </a>
           </div>
         )}
       </div>

@@ -9,26 +9,26 @@ const Home = () => {
     {
       icon: Heart,
       title: "Osteopatia Strutturale",
-      description: "Trattamenti mirati per problemi muscolo-scheletrici, dolori articolari e posturali.",
+      description: "Manipolazione vertebrale e riequilibrio posturale per artrosi, discopatia e dolori articolari.",
       link: "/osteopatia-strutturale",
     },
     {
       icon: Users,
       title: "Osteopatia Viscerale",
-      description: "Tecniche delicate per migliorare la mobilità degli organi interni e il benessere generale.",
+      description: "Manipolazione viscerale per disturbi digestivi e dolore addominale.",
       link: "/osteopatia-viscerale",
     },
     {
       icon: Award,
       title: "Osteopatia Cranio-Sacrale",
-      description: "Approccio dolce per ristabilire l'equilibrio del sistema cranio-sacrale.",
+      description: "Terapia cranio sacrale per cefalee, coccigodinia e disturbi del sonno.",
       link: "/osteopatia-cranio-sacrale",
     },
     {
       icon: Sparkles,
-      title: "Yoga Terapeutico",
-      description: "Programma completo di yoga terapeutico con focus su postura, respiro e benessere.",
-      link: "/yoga-terapeutico",
+      title: "Osteopatia Pediatrica",
+      description: "Trattamenti delicati per neonati e bambini.",
+      link: "/osteopatia-pediatrica",
     },
   ];
 
@@ -50,16 +50,16 @@ const Home = () => {
               Il Tuo Benessere è la Nostra Priorità
             </h1>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Studio di osteopatia a Roma specializzato in trattamenti personalizzati 
+              Studio di osteopatia a Gorizia specializzato in trattamenti personalizzati 
               per ritrovare equilibrio e salute attraverso tecniche manuali efficaci.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link to="/contatti">
+              <a href="https://www.miodottore.it/leonardo-michelin/osteopata/gorizia" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="group">
                   Prenota una Visita
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
                 </Button>
-              </Link>
+              </a>
               <Link to="/servizi">
                 <Button variant="outline" size="lg">
                   Scopri i Servizi
@@ -193,14 +193,14 @@ const Home = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Pronto a Prenderti Cura di Te?</h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Prenota ora la tua prima visita e inizia il tuo percorso verso il benessere
+            Prenota la tua prima visita su MioDottore e inizia il tuo percorso verso il benessere
           </p>
-          <Link to="/contatti">
+          <a href="https://www.miodottore.it/leonardo-michelin/osteopata/gorizia" target="_blank" rel="noopener noreferrer">
             <Button size="lg" variant="secondary" className="group">
-              Contattaci Ora
+              Prenota su MioDottore
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
             </Button>
-          </Link>
+          </a>
         </div>
       </section>
     </div>

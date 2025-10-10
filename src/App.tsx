@@ -12,8 +12,6 @@ import OsteopatiaStrutturale from "./pages/OsteopatiaStrutturale";
 import OsteopatiaViscerale from "./pages/OsteopatiaViscerale";
 import OsteopatiaCranioSacrale from "./pages/OsteopatiaCranioSacrale";
 import OsteopatiaPediatrica from "./pages/OsteopatiaPediatrica";
-import OsteopatiaSportiva from "./pages/OsteopatiaSportiva";
-import TrattamentiAnziani from "./pages/TrattamentiAnziani";
 import YogaTerapeutico from "./pages/YogaTerapeutico";
 import Blog from "./pages/Blog";
 import BlogArticle from "./pages/BlogArticle";
@@ -39,8 +37,6 @@ const App = () => (
               <Route path="/osteopatia-viscerale" element={<OsteopatiaViscerale />} />
               <Route path="/osteopatia-cranio-sacrale" element={<OsteopatiaCranioSacrale />} />
               <Route path="/osteopatia-pediatrica" element={<OsteopatiaPediatrica />} />
-              <Route path="/osteopatia-sportiva" element={<OsteopatiaSportiva />} />
-              <Route path="/trattamenti-anziani" element={<TrattamentiAnziani />} />
               <Route path="/yoga-terapeutico" element={<YogaTerapeutico />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/:id" element={<BlogArticle />} />

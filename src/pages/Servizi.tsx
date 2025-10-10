@@ -9,43 +9,31 @@ const Servizi = () => {
     {
       icon: Bone,
       title: "Osteopatia Strutturale",
-      description: "Trattamenti mirati per il sistema muscolo-scheletrico. Indicata per dolori alla schiena, cervicalgia, problemi articolari, tensioni muscolari e disturbi posturali. Utilizziamo tecniche manuali per ripristinare la mobilità articolare e alleviare il dolore.",
+      description: "Manipolazione vertebrale e riequilibrio posturale per trattare artrosi, discopatia, dolori alla schiena, cervicalgia, problemi articolari e disturbi posturali. Tecniche manuali per ripristinare la mobilità articolare.",
       link: "/osteopatia-strutturale",
     },
     {
       icon: Heart,
       title: "Osteopatia Viscerale",
-      description: "Approccio dolce per migliorare la mobilità e la funzionalità degli organi interni. Particolarmente efficace per disturbi digestivi, problemi respiratori, dolori addominali e disfunzioni del sistema urogenitale.",
+      description: "Manipolazione viscerale per migliorare la mobilità degli organi interni. Efficace per disturbi digestivi, dolore addominale nelle donne, problemi respiratori e disfunzioni del sistema urogenitale.",
       link: "/osteopatia-viscerale",
     },
     {
       icon: Activity,
       title: "Osteopatia Cranio-Sacrale",
-      description: "Tecniche delicate che lavorano sul sistema cranio-sacrale per ristabilire l'equilibrio del corpo. Ideale per mal di testa, emicranie, disturbi del sonno, stress e tensioni del viso e della testa.",
+      description: "Terapia cranio sacrale per ristabilire l'equilibrio del sistema nervoso. Ideale per mal di testa, emicranie, coccigodinia, disturbi del sonno, stress e tensioni cranio-facciali.",
       link: "/osteopatia-cranio-sacrale",
     },
     {
       icon: Baby,
       title: "Osteopatia Pediatrica",
-      description: "Trattamenti specializzati per neonati e bambini. Aiutiamo a risolvere coliche infantili, plagiocefalie, disturbi del sonno, reflusso gastroesofageo e problemi legati al parto. Approccio estremamente delicato e sicuro.",
+      description: "Trattamenti specializzati per neonati e bambini. Approccio delicato per coliche infantili, plagiocefalie, disturbi del sonno, reflusso gastroesofageo e problemi legati al parto.",
       link: "/osteopatia-pediatrica",
-    },
-    {
-      icon: Dumbbell,
-      title: "Osteopatia Sportiva",
-      description: "Supporto per atleti professionisti e amatoriali. Preveniamo infortuni, ottimizziamo le performance, acceleriamo il recupero post-trauma e gestiamo il sovraccarico muscolare. Lavoriamo con runner, ciclisti, calciatori e atleti di ogni disciplina.",
-      link: "/osteopatia-sportiva",
-    },
-    {
-      icon: Users,
-      title: "Trattamenti per Anziani",
-      description: "Terapie personalizzate per migliorare la mobilità e la qualità della vita nella terza età. Trattiamo artrosi, rigidità articolare, dolori cronici e problemi di equilibrio, con tecniche adattate alle esigenze specifiche.",
-      link: "/trattamenti-anziani",
     },
     {
       icon: Sparkles,
       title: "Yoga Terapeutico",
-      description: "Programma completo di yoga terapeutico da Ottobre a Dicembre 2025. Sessioni dedicate a equilibrio, postura, respiro, gestione dello stress e benessere completo. Ogni lezione è progettata per specifiche esigenze fisiche ed emotive.",
+      description: "Programma completo di yoga terapeutico. Sessioni dedicate a equilibrio, postura, respiro, gestione dello stress e benessere completo per specifiche esigenze fisiche ed emotive.",
       link: "/yoga-terapeutico",
     },
   ];
@@ -195,14 +183,14 @@ const Servizi = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Pronto a Iniziare?</h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Contattaci per prenotare la tua prima visita e scoprire come l'osteopatia 
+            Prenota la tua prima visita su MioDottore e scoprire come l'osteopatia 
             può aiutarti a ritrovare il benessere
           </p>
-          <Link to="/contatti">
+          <a href="https://www.miodottore.it/leonardo-michelin/osteopata/gorizia" target="_blank" rel="noopener noreferrer">
             <Button size="lg" variant="secondary">
-              Prenota una Visita
+              Prenota su MioDottore
             </Button>
-          </Link>
+          </a>
         </div>
       </section>
     </div>

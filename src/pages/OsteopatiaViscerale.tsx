@@ -133,6 +133,13 @@ const OsteopatiaViscerale = () => {
             <h2 className="text-3xl font-bold text-center mb-12">Informazioni sul Trattamento</h2>
             <div className="space-y-6">
               <div className="bg-card border border-border rounded-lg p-6">
+                <h3 className="text-xl font-semibold mb-3">Tariffe</h3>
+                <ul className="space-y-2 text-muted-foreground">
+                  <li>• Visita osteopatica: €75</li>
+                  <li>• Visita osteopatica di controllo: €65</li>
+                </ul>
+              </div>
+              <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">Come funziona?</h3>
                 <p className="text-muted-foreground">
                   Attraverso palpazioni delicate, l'osteopata valuta la mobilità e la vitalità 
@@ -185,11 +192,11 @@ const OsteopatiaViscerale = () => {
             aiutarti a ritrovare il benessere
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link to="/contatti">
+            <a href="https://www.miodottore.it/leonardo-michelin/osteopata/gorizia" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="secondary">
-                Prenota Ora
+                Prenota su MioDottore
               </Button>
-            </Link>
+            </a>
             <Link to="/servizi">
               <Button size="lg" variant="outline" className="bg-white/10 border-white text-white hover:bg-white/20">
                 Altri Servizi

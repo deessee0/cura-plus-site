@@ -106,9 +106,16 @@ const Contatti = () => {
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground">
-                        Via Roma 123<br />
-                        00100 Roma, Italia
+                        Gorizia, Italia
                       </p>
+                      <a 
+                        href="https://www.miodottore.it/leonardo-michelin/osteopata/gorizia" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline text-sm mt-2 inline-block"
+                      >
+                        Vedi su MioDottore
+                      </a>
                     </CardContent>
                   </Card>
 

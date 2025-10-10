@@ -279,11 +279,11 @@ const YogaTerapeutico = () => {
             di una pratica consapevole e personalizzata
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link to="/contatti">
+            <a href="https://www.miodottore.it/leonardo-michelin/osteopata/gorizia" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="secondary">
                 Prenota la Tua Sessione
               </Button>
-            </Link>
+            </a>
             <Link to="/servizi">
               <Button size="lg" variant="outline" className="bg-white/10 border-white text-white hover:bg-white/20">
                 Scopri Altri Servizi

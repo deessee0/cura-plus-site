@@ -48,7 +48,7 @@ const Footer = () => {
               <li className="text-sm text-muted-foreground">Osteopatia Strutturale</li>
               <li className="text-sm text-muted-foreground">Osteopatia Viscerale</li>
               <li className="text-sm text-muted-foreground">Osteopatia Cranio-Sacrale</li>
-              <li className="text-sm text-muted-foreground">Trattamenti Sportivi</li>
+              <li className="text-sm text-muted-foreground">Osteopatia Pediatrica</li>
             </ul>
           </div>
 
@@ -58,7 +58,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-primary mt-0.5 flex-shrink-0" />
-                <span className="text-sm text-muted-foreground">Via Roma 123, 00100 Roma</span>
+                <span className="text-sm text-muted-foreground">Gorizia, Italia</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={18} className="text-primary flex-shrink-0" />

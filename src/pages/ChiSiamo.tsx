@@ -6,16 +6,10 @@ import doctor2 from "@/assets/doctor-2.jpg";
 const ChiSiamo = () => {
   const team = [
     {
-      name: "Dott.ssa Maria Rossi",
+      name: "Leonardo Michelin",
       role: "Osteopata D.O.",
-      bio: "Specializzata in osteopatia pediatrica e cranio-sacrale, con oltre 15 anni di esperienza nel settore del benessere.",
+      bio: "Formazione presso I.E.M.O. Genova, C.E.E.S.O. Parigi e S.I.O.P. Firenze. Tirocini presso Ospedale Meyer, Ospedale Rizzoli e C.E.E.S.O. Clinique Ostéopatique. Competenze linguistiche: Italiano, Inglese, Francese. Autore di studi sul sistema glinfatico e glaucoma presentati a congressi nazionali, europei e mondiali.",
       image: doctor1,
-    },
-    {
-      name: "Dott. Marco Bianchi",
-      role: "Osteopata D.O.",
-      bio: "Esperto in osteopatia sportiva e strutturale, ha seguito atleti professionisti e amatori nel loro percorso di recupero.",
-      image: doctor2,
     },
   ];
 
@@ -27,9 +21,9 @@ const ChiSiamo = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">Chi Siamo</h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              PiùCura nasce dalla passione per l'osteopatia e dalla volontà di offrire trattamenti 
-              di qualità in un ambiente accogliente e professionale. Il nostro studio è un punto di 
-              riferimento a Roma per chi cerca un approccio naturale e personalizzato al benessere.
+              Studio di osteopatia a Gorizia specializzato in trattamenti personalizzati. 
+              Offriamo un approccio professionale e attento alle esigenze di ogni paziente, 
+              combinando competenze internazionali con un'attenzione particolare al benessere individuale.
             </p>
           </div>
         </div>
@@ -58,8 +52,8 @@ const ChiSiamo = () => {
               </div>
               <h3 className="text-2xl font-semibold mb-3">Visione</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Essere il punto di riferimento per l'osteopatia a Roma, riconosciuti per 
-                professionalità, competenza e attenzione al paziente.
+                Essere un punto di riferimento per l'osteopatia a Gorizia, riconosciuti per 
+                professionalità, competenza internazionale e attenzione al paziente.
               </p>
             </div>
 
@@ -103,28 +97,26 @@ const ChiSiamo = () => {
             
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                PiùCura nasce nel 2008 dalla visione di due giovani osteopati che, dopo anni di formazione 
-                in Italia e all'estero, decidono di aprire uno studio dove l'eccellenza clinica si unisce 
-                all'attenzione per la persona.
+                Studio osteopatico fondato sulla base di una solida formazione internazionale. 
+                La formazione presso istituzioni prestigiose come I.E.M.O. Genova, C.E.E.S.O. Parigi 
+                e S.I.O.P. Firenze garantisce competenze all'avanguardia.
               </p>
               
               <p>
-                Nel corso degli anni, abbiamo costruito una reputazione solida basata sulla fiducia dei 
-                nostri pazienti e sull'efficacia dei nostri trattamenti. Ogni giorno accogliamo persone 
-                di tutte le età con problematiche diverse, dalla semplice tensione muscolare ai disturbi 
-                cronici più complessi.
+                L'esperienza maturata attraverso tirocini presso l'Ospedale Meyer, l'Ospedale Rizzoli 
+                e la C.E.E.S.O. Clinique Ostéopatique ha consolidato un approccio clinico rigoroso 
+                e attento alle esigenze di ogni paziente.
               </p>
               
               <p>
-                Il nostro studio si è evoluto, ma i principi fondamentali rimangono gli stessi: 
-                ascolto attento, diagnosi accurata, trattamento personalizzato e formazione continua. 
-                Crediamo che l'osteopatia sia molto più di una tecnica: è un approccio olistico che 
-                considera la persona nella sua interezza.
+                L'attività di ricerca, con particolare focus sul sistema glinfatico e le sue implicazioni 
+                sul glaucoma, testimonia l'impegno costante nell'innovazione e nell'approfondimento scientifico. 
+                Gli studi sono stati presentati a congressi nazionali, europei e mondiali.
               </p>
               
               <p>
-                Oggi PiùCura è un punto di riferimento nel panorama osteopatico romano, con migliaia 
-                di pazienti soddisfatti e una rete di collaborazioni con altri professionisti della salute.
+                Oggi lo studio a Gorizia rappresenta un punto di riferimento per chi cerca trattamenti 
+                osteopatici professionali, basati su evidenze scientifiche e personalizzati per ogni paziente.
               </p>
             </div>
           </div>
