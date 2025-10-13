@@ -13,8 +13,6 @@ import OsteopatiaViscerale from "./pages/OsteopatiaViscerale";
 import OsteopatiaCranioSacrale from "./pages/OsteopatiaCranioSacrale";
 import OsteopatiaPediatrica from "./pages/OsteopatiaPediatrica";
 import YogaTerapeutico from "./pages/YogaTerapeutico";
-import Blog from "./pages/Blog";
-import BlogArticle from "./pages/BlogArticle";
 import Contatti from "./pages/Contatti";
 import NotFound from "./pages/NotFound";
 
@@ -38,8 +36,6 @@ const App = () => (
               <Route path="/osteopatia-cranio-sacrale" element={<OsteopatiaCranioSacrale />} />
               <Route path="/osteopatia-pediatrica" element={<OsteopatiaPediatrica />} />
               <Route path="/yoga-terapeutico" element={<YogaTerapeutico />} />
-              <Route path="/blog" element={<Blog />} />
-              <Route path="/blog/:id" element={<BlogArticle />} />
               <Route path="/contatti" element={<Contatti />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
