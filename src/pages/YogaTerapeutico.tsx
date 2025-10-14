@@ -278,10 +278,13 @@ const YogaTerapeutico = () => {
             Unisciti al nostro programma di Yoga Terapeutico e scopri i benefici 
             di una pratica consapevole e personalizzata
           </p>
+          <p className="text-lg mb-6 opacity-90">
+            <span className="font-semibold">Nikita Cijan</span> - Insegnante Yoga
+          </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href="https://www.miodottore.it/leonardo-michelin/osteopata/gorizia" target="_blank" rel="noopener noreferrer">
+            <a href="tel:+393285368530">
               <Button size="lg" variant="secondary">
-                Prenota la Tua Sessione
+                Contatta l'Insegnante
               </Button>
             </a>
             <Link to="/servizi">
