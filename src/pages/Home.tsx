@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Heart, Users, Award, Clock, Sparkles, Star, Quote } from "lucide-react";
 import ServiceCard from "@/components/ServiceCard";
+import { SEOHead } from "@/components/SEOHead";
 import heroImage from "@/assets/hero-osteopathy.jpg";
 const Home = () => {
   const services = [{
@@ -26,6 +27,7 @@ const Home = () => {
     link: "/osteopatia-pediatrica"
   }];
   return <div>
+      <SEOHead />
       {/* Hero Section */}
       <section className="relative min-h-[600px] flex items-center">
         <img src={heroImage} alt="Studio di osteopatia PiùCura Roma - Trattamenti osteopatici professionali" fetchPriority="high" className="absolute inset-0 w-full h-full object-cover" />

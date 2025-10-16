@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Bone, Activity, Sparkles, Heart, Shield } from "lucide-react";
+import { SEOHead } from "@/components/SEOHead";
 
 const OsteopatiaStrutturale = () => {
   const treatments = [
@@ -41,6 +42,12 @@ const OsteopatiaStrutturale = () => {
 
   return (
     <div>
+      <SEOHead 
+        title="Osteopatia Strutturale a Gorizia | Mal di Schiena e Dolori Articolari"
+        description="Trattamenti di osteopatia strutturale a Gorizia per mal di schiena, cervicalgia, lombalgia, artrosi e problemi posturali. Manipolazione vertebrale specializzata."
+        canonical="https://piucura.it/osteopatia-strutturale"
+        keywords="osteopatia strutturale gorizia, mal di schiena gorizia, cervicalgia, lombalgia, manipolazione vertebrale, dolori articolari gorizia"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">

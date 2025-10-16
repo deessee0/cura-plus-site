@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Activity, Brain, Moon, Sparkles, Shield, Heart } from "lucide-react";
+import { SEOHead } from "@/components/SEOHead";
 
 const OsteopatiaCranioSacrale = () => {
   const treatments = [
@@ -41,6 +42,12 @@ const OsteopatiaCranioSacrale = () => {
 
   return (
     <div>
+      <SEOHead 
+        title="Osteopatia Cranio-Sacrale a Gorizia | Cefalee, Emicranie e Stress"
+        description="Terapia cranio-sacrale a Gorizia per mal di testa, emicranie, disturbi del sonno, stress e ansia. Tecniche delicate per riequilibrare il sistema nervoso."
+        canonical="https://piucura.it/osteopatia-cranio-sacrale"
+        keywords="osteopatia cranio sacrale gorizia, cefalee gorizia, emicrania, mal di testa, disturbi del sonno, stress ansia, terapia craniosacrale"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">

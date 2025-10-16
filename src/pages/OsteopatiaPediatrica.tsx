@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Baby, Heart, Sparkles, Shield, Smile, Moon } from "lucide-react";
+import { SEOHead } from "@/components/SEOHead";
 
 const OsteopatiaPediatrica = () => {
   const treatments = [
@@ -49,6 +50,12 @@ const OsteopatiaPediatrica = () => {
 
   return (
     <div>
+      <SEOHead 
+        title="Osteopatia Pediatrica a Gorizia | Neonati e Bambini"
+        description="Osteopatia pediatrica a Gorizia per neonati e bambini: coliche infantili, plagiocefalia, reflusso, disturbi del sonno. Trattamenti delicati e sicuri."
+        canonical="https://piucura.it/osteopatia-pediatrica"
+        keywords="osteopatia pediatrica gorizia, osteopata neonati, coliche infantili, plagiocefalia, osteopatia bambini gorizia, reflusso neonato"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">

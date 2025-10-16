@@ -1,5 +1,6 @@
 import TeamMember from "@/components/TeamMember";
 import { Target, Eye, Heart } from "lucide-react";
+import { SEOHead } from "@/components/SEOHead";
 import doctor1 from "@/assets/doctor-1.jpg";
 import doctor2 from "@/assets/doctor-2.jpg";
 
@@ -15,6 +16,12 @@ const ChiSiamo = () => {
 
   return (
     <div>
+      <SEOHead 
+        title="Chi Siamo - PiùCura | Osteopata Leonardo Michelin a Gorizia"
+        description="Scopri lo studio osteopatico PiùCura a Gorizia: formazione internazionale, esperienza ospedaliera e ricerca scientifica. Osteopata D.O. Leonardo Michelin."
+        canonical="https://piucura.it/chi-siamo"
+        keywords="osteopata gorizia, leonardo michelin, studio osteopatia gorizia, formazione osteopatia, chi siamo piucura"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">

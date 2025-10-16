@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Calendar, Heart, Moon, Sun, Sparkles, Wind } from "lucide-react";
+import { SEOHead } from "@/components/SEOHead";
 
 const YogaTerapeutico = () => {
   const octoberSessions = [
@@ -74,6 +75,12 @@ const YogaTerapeutico = () => {
 
   return (
     <div>
+      <SEOHead 
+        title="Yoga Terapeutico a Monfalcone | Equilibrio, Postura e Benessere"
+        description="Corsi di yoga terapeutico a Monfalcone: equilibrio, postura, gestione stress, respiro. Programma completo per specifiche esigenze fisiche ed emotive."
+        canonical="https://piucura.it/yoga-terapeutico"
+        keywords="yoga terapeutico monfalcone, yoga gorizia, yoga posturale, yoga equilibrio, gestione stress yoga, yoga respiro"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">

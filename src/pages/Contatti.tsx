@@ -1,11 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MapPin, Phone, Mail, ArrowRight } from "lucide-react";
+import { SEOHead } from "@/components/SEOHead";
 
 const Contatti = () => {
 
   return (
     <div>
+      <SEOHead 
+        title="Contatti - Prenota Osteopata a Gorizia e Monfalcone | PiùCura"
+        description="Contatta lo studio PiùCura per prenotare una visita osteopatica. Sedi a Gorizia e Monfalcone. Tel: 0481 375368, Email: info@piucura.it"
+        canonical="https://piucura.it/contatti"
+        keywords="contatti osteopata gorizia, prenota visita osteopatica monfalcone, appuntamento osteopata, piucura contatti"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">

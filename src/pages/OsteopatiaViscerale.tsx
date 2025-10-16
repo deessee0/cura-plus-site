@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Heart, Activity, Sparkles, Shield, Wind } from "lucide-react";
+import { SEOHead } from "@/components/SEOHead";
 
 const OsteopatiaViscerale = () => {
   const treatments = [
@@ -41,6 +42,12 @@ const OsteopatiaViscerale = () => {
 
   return (
     <div>
+      <SEOHead 
+        title="Osteopatia Viscerale a Gorizia | Disturbi Digestivi e Dolori Addominali"
+        description="Osteopatia viscerale a Gorizia per disturbi digestivi, reflusso, colon irritabile, dolori pelvici. Manipolazione viscerale specializzata per benessere interno."
+        canonical="https://piucura.it/osteopatia-viscerale"
+        keywords="osteopatia viscerale gorizia, disturbi digestivi, reflusso gastroesofageo, colon irritabile, dolori addominali donne, manipolazione viscerale"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">

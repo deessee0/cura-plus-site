@@ -2,6 +2,7 @@ import ServiceCard from "@/components/ServiceCard";
 import { Bone, Heart, Baby, Dumbbell, Users, Activity, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { SEOHead } from "@/components/SEOHead";
 import treatmentImage from "@/assets/treatment-osteopathy.jpg";
 
 const Servizi = () => {
@@ -40,6 +41,12 @@ const Servizi = () => {
 
   return (
     <div>
+      <SEOHead 
+        title="Servizi di Osteopatia a Gorizia e Monfalcone | PiùCura"
+        description="Servizi osteopatici specializzati: osteopatia strutturale, viscerale, cranio-sacrale, pediatrica e yoga terapeutico a Gorizia e Monfalcone."
+        canonical="https://piucura.it/servizi"
+        keywords="servizi osteopatia gorizia, osteopatia strutturale, osteopatia viscerale, osteopatia pediatrica gorizia, yoga terapeutico monfalcone"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">
